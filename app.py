@@ -2,7 +2,7 @@ import os
 from flask import Flask, flash, request, render_template
 from werkzeug.utils import secure_filename
 
-UPLOAD_FOLDER = 'C:\\Users\\10660085118\\Desktop\\cs50lecture0\\aa'
+UPLOAD_FOLDER = 'YOUR DIRECTORY' # don't forget to put double backslahes
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
 app = Flask(__name__)
